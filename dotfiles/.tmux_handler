@@ -1,0 +1,5 @@
+if [[ -x '/usr/bin/tmux' && -z "$TMUX" && ! "$TERM" =~ 'screen' ]]; then
+   local _startdir="$(pwd)"
+   cd
+   tmux new-session -c "$_startdir"
+fi
