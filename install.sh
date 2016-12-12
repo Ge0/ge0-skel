@@ -9,4 +9,7 @@ $PREFIX ./dotfiles/.virtualenvwrapper $HOME/.virtualenvwrapper
 $PREFIX ./dotfiles/.zshrc $HOME/.zshrc
 
 mkdir -p ~/.config
-$PREFIX ./nvim $HOME/nvim
+$PREFIX ./nvim $HOME/.config/nvim
+
+mkdir -p ~/.config/i3
+$PREFIX ./i3/config $HOME/.config/i3
