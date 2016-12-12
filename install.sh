@@ -11,5 +11,4 @@ $PREFIX ./dotfiles/.zshrc $HOME/.zshrc
 mkdir -p ~/.config
 $PREFIX ./nvim $HOME/.config/nvim
 
-mkdir -p ~/.config/i3
-$PREFIX ./i3/config $HOME/.config/i3
+$PREFIX ./i3 $HOME/.config/i3
