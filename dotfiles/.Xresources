@@ -28,10 +28,10 @@ URxvt.color14: #be643c
 URxvt.color15: #ffffff
 
 ! Fonts.
-URxvt.font:                    xft:Monospace-10.5:antialias=true
-URxvt.boldFont:                xft:Monospace-10.5:antialias=true:bold
-URxvt.italicFont:              xft:Monospace-10.5:antialias=true:italic
-URxvt.bolditalicFont:          xft:Monospace-10.5:antialias=true:bold:italic
+URxvt.font:                    xft:Monospace-11:antialias=true
+URxvt.boldFont:                xft:Monospace-11:antialias=true:bold
+URxvt.italicFont:              xft:Monospace-11:antialias=true:italic
+URxvt.bolditalicFont:          xft:Monospace-11:antialias=true:bold:italic
 URxvt.letterSpace: -1
 
 ! Dont alter bold colors.
