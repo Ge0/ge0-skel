@@ -1,51 +1,27 @@
 ! URxvt
-! =====
-
-! Look and Feel
-! -------------
-
-! Color Scheme.
-URxvt.foreground: #e0e0e0
-URxvt.background: #000000
-URxvt.cursorColor: #e0e0e0
-
-URxvt.color0: #000000
-URxvt.color1: #fb0120
-URxvt.color2: #a1c659
-URxvt.color3: #fda331
-URxvt.color4: #6fb3d2
-URxvt.color5: #d381c3
-URxvt.color6: #76c7b7
-URxvt.color7: #e0e0e0
-
-URxvt.color8: #b0b0b0
-URxvt.color9: #fc6d24
-URxvt.color10: #303030
-URxvt.color11: #505050
-URxvt.color12: #d0d0d0
-URxvt.color13: #f5f5f5
-URxvt.color14: #be643c
-URxvt.color15: #ffffff
-
-! Fonts.
-URxvt.font:                    xft:Monospace-11:antialias=true
-URxvt.boldFont:                xft:Monospace-11:antialias=true:bold
-URxvt.italicFont:              xft:Monospace-11:antialias=true:italic
-URxvt.bolditalicFont:          xft:Monospace-11:antialias=true:bold:italic
-URxvt.letterSpace: -1
-
-! Dont alter bold colors.
-URxvt.intensityStyles: false
-
-! No border.
-URxvt.internalBorder: 1
-
-! Behavior
-! --------
-
-! No scrollbar.
-URxvt.scrollBar: false
-URxvt.saveLines: 0
-
-! Disable alternate input mode.
-URxvt.iso14755: false
+URxvt.termName:             rxvt-unicode-256color
+URxvt.geometry:             80x24
+URxvt.transparent:          false
+URxvt.reverseVideo:         false
+URxvt.perl-ext-common:      default,url-select,vtwheel,tabbedex
+URxvt.tabbed.autohide:      true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.url-select.launcher:  /usr/bin/xdg-open
+URxvt.url-select.button:    3
+URxvt.url-select.underline: true
+URxvt.iso14755:             false
+URxvt.iso14755_52:          false
+URxvt.tintColor:            #dfdfdf
+URxvt.font:                 -akim-akimfont-medium-r-normal--14-*-*-*-c-*-iso10646-*,xft:Symbola:pixelsize=11
+URxvt.scrollBar:            false
+URxvt.scrollBar_floating:   false
+URxvt.scrollBar_right:      false
+URxvt.scrollColor:          #000000
+URxvt.saveLines:            5500
+URxvt.cursorColor:          #3ec2ff
+URxvt.pointerBlank:         True
+URxvt.pointerBlankDelay:    3
+URxvt.colorBD:              lightyellow
+URxvt.letterSpace:          0
+URxvt.hold:                 False
+URxvt.urgentOnBell:         True
