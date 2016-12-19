@@ -1,4 +1,6 @@
 ! URxvt
+URxvt.background: #000000
+URxvt.foreground: #e0e0e0
 URxvt.termName:             rxvt-unicode-256color
 URxvt.geometry:             80x24
 URxvt.transparent:          false
