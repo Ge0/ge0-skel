@@ -1,0 +1,3 @@
+[kiwi]
+SigLevel = Optional TrustAll
+Server = http://archlinux.kiwi-team.eu
