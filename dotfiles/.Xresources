@@ -1,6 +1,25 @@
 ! URxvt
 URxvt.background: #000000
 URxvt.foreground: #e0e0e0
+
+URxvt.color0: #000000
+URxvt.color1: #fb0120
+URxvt.color2: #a1c659
+URxvt.color3: #fda331
+URxvt.color4: #6fb3d2
+URxvt.color5: #d381c3
+URxvt.color6: #76c7b7
+URxvt.color7: #e0e0e0
+
+URxvt.color8: #b0b0b0
+URxvt.color9: #fc6d24
+URxvt.color10: #303030
+URxvt.color11: #505050
+URxvt.color12: #d0d0d0
+URxvt.color13: #f5f5f5
+URxvt.color14: #be643c
+URxvt.color15: #ffffff
+
 URxvt.termName:             rxvt-unicode-256color
 URxvt.geometry:             80x24
 URxvt.transparent:          false
