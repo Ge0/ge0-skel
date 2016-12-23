@@ -10,7 +10,7 @@ syntax enable
 colorscheme mustang
 
 set cc=80
-hi ColorColumn
+hi ColorColumn ctermbg=darkgrey
 
 call plug#begin()
 Plug 'vim-airline/vim-airline'
