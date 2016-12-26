@@ -1,0 +1,2 @@
+export ALLURE_HOME=~/allure-commandline
+export PATH=$ALLURE_HOME/bin:$PATH
