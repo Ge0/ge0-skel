@@ -1,0 +1,32 @@
+! Modified Archlinux theme
+
+*background: #202020
+*foreground: #DDDDDD
+
+! black
+*color0:  #000000
+*color8:  #555555
+! red
+*color1:  #AA0000
+*color9:  #FF5555
+! green
+*color2:  #00AA00
+*color10: #55FF55
+! yellow
+*color3:  #AA5500
+*color11: #FFFF55
+! blue
+!*color4:  #03a9f4
+*color4:  #0030AA
+*color12: #65A5FF
+! magenta
+*color5:  #E93E63
+*color13: #FF55BB
+! cyan
+*color6:  #009688
+*color14: #46E6BA
+! white
+*color7:  #AAAAAA
+*color15: #FFFFFF
+
+! vim: ft=xdefaults:

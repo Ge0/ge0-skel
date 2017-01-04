@@ -11,5 +11,6 @@ $PREFIX ./dotfiles/.zshrc $HOME/.zshrc
 
 mkdir -p ~/.config
 $PREFIX ./nvim $HOME/.config/nvim
+$PREFIX ./Xcolors $HOME/.config/Xcolors
 
 $PREFIX ./i3 $HOME/.config/i3
