@@ -1,6 +1,7 @@
 alias vi='nvim'
 alias vim='nvim'
 alias hd='hexdump -C'
+alias ps='ps -faux'
 alias README.md='less README.md'
 
 mkcd () {
