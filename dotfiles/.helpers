@@ -1,6 +1,6 @@
 cd_wrapper_leave () {
   local _current_dir=`pwd`
-  local _leave_hook=`echo ${_current_dir}/.cd_wrapper_leave_hook`
+  local _leave_hook="${_current_dir}/.cd_wrapper_leave_hook"
   [[ -x $_leave_hook ]] && . $_leave_hook
   return 0
 }
@@ -14,10 +14,10 @@ cd_wrapper () {
   then
     local _dst_dir=$HOME
   else
-    local _dst_dir=`echo ${_base_dir}/$1`
+    local _dst_dir="${_base_dir}/$1"
   fi
-  local _pre_hook=`echo ${_dst_dir}/.cd_wrapper_enter_prehook`
-  local _post_hook=`echo ${_dst_dir}/.cd_wrapper_enter_posthook`
+  local _pre_hook="${_dst_dir}/.cd_wrapper_enter_prehook"
+  local _post_hook="${_dst_dir}/.cd_wrapper_enter_posthook"
 
   [[ -x $_pre_hook ]] && . $_pre_hook
   cd $1
