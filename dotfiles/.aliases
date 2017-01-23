@@ -1,3 +1,4 @@
+alias cd=cd_wrapper
 alias vi='nvim'
 alias vim='nvim'
 alias hd='hexdump -C'
