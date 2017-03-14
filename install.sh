@@ -1,3 +1,4 @@
+set -x
 PREFIX='ln -srf'
 $PREFIX ./dotfiles/.Xresources $HOME/.Xresources
 $PREFIX ./dotfiles/.aliases $HOME/.aliases
@@ -11,7 +12,7 @@ $PREFIX ./dotfiles/.virtualenvwrapper $HOME/.virtualenvwrapper
 $PREFIX ./dotfiles/.zshrc $HOME/.zshrc
 
 mkdir -p ~/.config
-$PREFIX ./nvim $HOME/.config/nvim
+$PREFIX ./nvim $HOME/.config/
 $PREFIX ./Xcolors $HOME/.config/Xcolors
 
 $PREFIX ./i3 $HOME/.config/i3
