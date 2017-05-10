@@ -156,7 +156,7 @@ bar {
 }
 
 # i3lock
-bindsym $mod+Ctrl+l exec "i3lock -c 000000"
+bindsym $mod+Ctrl+l exec "i3lock -c 000000 -i ~/Pictures/bsod_1920x1080.png"
 
 exec --no-startup-id nm-applet
 exec --no-startup-id pasystray

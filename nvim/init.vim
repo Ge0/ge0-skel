@@ -10,6 +10,7 @@ syntax enable
 colorscheme mustang
 
 set cc=80
+set mouse=a
 hi ColorColumn ctermbg=darkgrey
 
 call plug#begin()
