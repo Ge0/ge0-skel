@@ -12,7 +12,7 @@ URxvt.url-select.underline: true
 URxvt.iso14755:             false
 URxvt.iso14755_52:          false
 URxvt.tintColor:            #dfdfdf
-URxvt.font:                 -akim-akimfont-medium-r-normal--14-*-*-*-c-*-iso10646-*,xft:Symbola:pixelsize=11
+!URxvt.font:                 -akim-akimfont-medium-r-normal--14-*-*-*-c-*-iso10646-*,xft:Symbola:pixelsize=11
 URxvt.scrollBar:            false
 URxvt.scrollBar_floating:   false
 URxvt.scrollBar_right:      false
@@ -25,6 +25,11 @@ URxvt.colorBD:              lightyellow
 URxvt.letterSpace:          0
 URxvt.hold:                 False
 URxvt.urgentOnBell:         True
+
+URxvt.font:                 xft:inconsolata:pixelsize=17:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=17:antialias=true,hinting=true
+URxvt.boldFont:             xft:inconsolata:pixelsize=17:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=17:antialias=true,hinting=true
+URxvt.italicFont:           xft:inconsolata:pixelsize=17:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=17:antialias=true,hinting=true
+URxvt.bolditalicFont:       xft:inconsolata:pixelsize=17:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=17:antialias=true,hinting=true
 
 #ifdef COLOR
   #include ".config/Xcolors/ge0"
