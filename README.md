@@ -7,7 +7,7 @@ There are some stuff which requires manual setup though.
 ## Install vim-plug
 
 ```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
