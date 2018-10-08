@@ -6,6 +6,7 @@ $PREFIX ./dotfiles/.path $HOME/.path
 $PREFIX ./dotfiles/.helpers $HOME/.helpers
 $PREFIX ./dotfiles/.tmux.conf $HOME/.tmux.conf
 $PREFIX ./dotfiles/.tmux_handler $HOME/.tmux_handler
+$PREFIX ./dotfiles/.vimrc.bepo $HOME/.vimrc.bepo
 
 mkdir -p ~/envs
 $PREFIX ./dotfiles/.virtualenvwrapper $HOME/.virtualenvwrapper

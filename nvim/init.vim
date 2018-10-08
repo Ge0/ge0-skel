@@ -1,3 +1,5 @@
+source ~/.vimrc.bepo
+
 set autoindent
 set ignorecase
 set ruler
