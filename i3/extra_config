@@ -1,0 +1,10 @@
+# i3lock
+bindsym $mod+Ctrl+l exec "i3lock -c 000000 -i ~/Pictures/bsod_1920x1080.png"
+
+exec --no-startup-id nm-applet
+exec --no-startup-id pasystray
+exec --no-startup-id uim-toolbar-gtk3-systray
+
+# Screenshot
+bindsym Print exec scrot -e 'mv $f /tmp/ && gimp /tmp/$f'
+
