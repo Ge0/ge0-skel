@@ -1,2 +1,9 @@
+# Default value
+VIRTUALENVWRAPPER_SH=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+
+
+source ~/.machines/.$NAME
+
 export WORKON_HOME=~/.virtualenvs
-source /usr/bin/virtualenvwrapper.sh
+
+source $VIRTUALENVWRAPPER_SH

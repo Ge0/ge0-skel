@@ -18,3 +18,6 @@ $PREFIX ./Xcolors $HOME/.config/Xcolors
 $PREFIX ./i3 $HOME/.config/
 
 $PREFIX ./wallpaper.jpg $HOME/wallpaper.jpg
+
+# Machines
+$PREFIX ./.machines $HOME/.machines

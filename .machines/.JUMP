@@ -1,0 +1,4 @@
+VIRTUALENVWRAPPER_SH=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+
+# Go $HOME JUMP, you're drunk.
+cd ~
