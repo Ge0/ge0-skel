@@ -1,5 +1,6 @@
 set -x
 PREFIX='ln -srf'
+$PREFIX ./dotfiles/.xinitrc $HOME/.xinitrc
 $PREFIX ./dotfiles/.Xresources $HOME/.Xresources
 $PREFIX ./dotfiles/.aliases $HOME/.aliases
 $PREFIX ./dotfiles/.path $HOME/.path
