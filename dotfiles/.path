@@ -7,3 +7,4 @@ export PATH=~/exercism:$PATH
 export PATH=~/.gem/bin:$PATH
 export FLEXOMATIC_ENDPOINT="http://192.168.1.45:5000"
 export JAVA_HOME=/usr/lib/jvm/java-14-openjdk
+export PATH="$HOME/.phpenv/bin:$PATH"
